@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply min-h-screen bg-gray-100 text-gray-900;
+}
+input, button {
+  @apply w-full;
+}
+
+form {
+  @apply max-w-lg mx-auto px-4 sm:px-6 md:px-8;
+}
